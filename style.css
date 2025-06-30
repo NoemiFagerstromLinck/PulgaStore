@@ -155,3 +155,12 @@ footer {
         width: 400px;
     }
 }
+ .imagen-galeria {
+  width: 120px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #f9c;
+  transition: transform 0.3s;
+}
+.imagen-galeria:hover {
+  transform: scale(1.1);
+}
